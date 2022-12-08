@@ -24,10 +24,12 @@
  */
 int main(int argc, const char * argv[])
 {
-  robotPrintAscii();
   if(argc > 1 && isdigit(*argv[1])) {  
+  	robotPrintAscii();
     	dalekPrintAscii();
   	robotPrintMessage();
+  } else {
+  	robotPrintAscii();	
   }
   
   return 0;
