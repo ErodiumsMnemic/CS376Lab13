@@ -37,7 +37,7 @@ void robotPrintAscii(void)
 	printBlanks(10, round);
   	printf("     i_i    \n");
 	printBlanks(10, round);
-	printf("    [O_o]   \n");
+	printf("    L[$_$]L   \n");
 	printBlanks(10, round);
 	printf("   /|</3|\\ \n");
 	printBlanks(10, round);
